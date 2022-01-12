@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    background-color: rgba(161, 6, 114, 0.637);
+    padding: 1px;
+}
+
+header a {
+    text-decoration: none;
+    color: #000;
+    font-size:30px;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+header img{
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.btn-login{
+    display: flex;
+    position: relative;
+    border: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 1100px;
+    margin-top: -30px;
+    top: -8px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-login:hover{
+    background-color: thistle;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.menu-desktop{
+    background-color:#f2d0e0;
+    width: 300px;
+    height:650px;
+}
+
+nav ul li {
+    display: block;
+    text-decoration: none;
+    margin-left: 37px;
+    text-transform: uppercase;
+    margin-top: -20px;
+}
+
+nav ul li:hover{
+   color: violet;
+   font-size: 18px;
+}
+nav img{
+    margin-left: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.seta{
+    display: flex;
+    margin-left: 270px;
+    margin-top: -23px;
+}
+
+
+#mostruario-grid {
+    display: grid;
+    margin-left: 25%;
+    margin-right: 11%;
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 5px;
+    column-gap: 2px;
+    justify-items: center;
+    align-items: center;
+    margin-top: -650px;
+   
+  }
+  #reduzir-grid {
+    width: 100px;
+    height: 100px;
+    margin-top: -1px;
+  }
+  #ajuste-bordas {
+    border: 1px;
+    border-style: hidden;
+    box-shadow: darkgray;
+    margin-top: -40px;
+}
+
+footer{
+    width: 100%;
+    height:40px;
+    margin-top: 10px;
+    background-color: fuchsia;
+    padding: 5px;
+}
+
+footer p {
+    text-align: center;
+   padding: 10px;
+   font-size: 18px;
+   font-weight: bolder;
+   color: rgb(8, 5, 5);
+}
