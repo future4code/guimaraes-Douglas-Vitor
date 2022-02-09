@@ -1,4 +1,4 @@
-
+import styled from 'styled-components';
 import Chat from "./components/Chat/Index";
 import Input from "./components/Input/Index";
 import "./App.css"
